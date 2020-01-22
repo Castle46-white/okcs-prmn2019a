@@ -11,10 +11,10 @@ tf (Term Frequency) は単語の頻出度を表す
 
 
 ```math
-\textrm{tf}(t,d) = \frac{n_{t,d}}{\sum_{s \in d}n_{s,d}}
+{tf}(t,d) = \frac{n_{t,d}}{\sum_{s \in d}n_{s,d}}
 ```
 
-$\textrm{tf}(t,d)$ : 文書 $d$ 内のある単語 $t$ のTF値
+${tf}(t,d)$ : 文書 $d$ 内のある単語 $t$ のTF値
 
 $n_{t,d}$ : ある単語 $t$ の文書 $d$ 内での出現回数
 
@@ -29,7 +29,7 @@ idf (Inverse Document Frequency) はその単語がいくつの文章で共通�
 ```
 ※対数の底はなんでもよい(今回は自然対数とする)
 
-$\textrm{idf}(t)$ : ある単語 $t$ のIDF値
+${idf}(t)$ : ある単語 $t$ のIDF値
 
 $N$ : 全文書数
 
