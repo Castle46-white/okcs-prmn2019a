@@ -9,5 +9,13 @@ word2vecには2つのモデルがる。
 
 どちらのモデルもこの推測の精度を高めるように学習していくことで単語のベクトルが得られる。
 ## word2vecの仕組み
+胸 / に / 残り / 離れ / ない / 苦い / レモン / の / 匂い
+このような文章を入力した場合
 ### Skip-gramモデル
+Skip-gramモデルでは
+![skip_gram](../img/word2vec_Skip_gram.001.png)
+
+### CBOWモデル
+![skip_gram](../img/word2vec_CBOW.001.png)
+
 
